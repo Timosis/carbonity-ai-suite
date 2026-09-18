@@ -88,11 +88,11 @@ h1 em, h2 em { color: var(--primary); font-style: normal; }
 .tag-one { top: 6%; right: 3%; }.tag-two { bottom: 25%; right: 0; }.tag-three { bottom: 4%; left: 5%; }
 .dashboard-wrap { position: relative; z-index: 5; max-width: 1220px; margin: 15px auto -230px; filter: drop-shadow(0 30px 30px oklch(0.08 0.02 165 / 28%)); }
 .product-shell { background: var(--card); color: var(--card-foreground); border: 1px solid oklch(1 0 0 / 16%); font-family: var(--font-sans); }
-.product-topbar { height: 36px; background: oklch(0.12 0.018 162); color: oklch(0.75 0.015 160); display: flex; align-items: center; justify-content: space-between; padding: 0 15px; font-size: 8px; font-weight: 800; }
-.product-dots { display: flex; gap: 5px; }.product-dots span { width: 6px; height: 6px; border-radius: 50%; background: oklch(1 0 0 / 22%); }
+.product-topbar { height: 36px; background: oklch(0.95 0.005 90); color: oklch(0.45 0.015 160); display: flex; align-items: center; justify-content: space-between; padding: 0 15px; font-size: 8px; font-weight: 800; border-bottom: 1px solid var(--border); }
+.product-dots { display: flex; gap: 5px; }.product-dots span { width: 6px; height: 6px; border-radius: 50%; background: oklch(0.15 0.018 162 / 22%); }
 .live-pill { display: flex; align-items: center; gap: 7px; }.live-pill i { display: block; width: 5px; height: 5px; box-shadow: none; }
 .product-layout { display: grid; grid-template-columns: 56px 1fr; }
-.product-sidebar { background: oklch(0.18 0.027 163); display: flex; align-items: center; flex-direction: column; padding: 16px 0; gap: 14px; color: oklch(0.67 0.025 160); }
+.product-sidebar { background: oklch(0.92 0.008 92); display: flex; align-items: center; flex-direction: column; padding: 16px 0; gap: 14px; color: oklch(0.45 0.02 160); }
 .mini-logo { color: var(--primary); font-weight: 800; display: flex; align-items: center; gap: 2px; margin-bottom: 13px; }.side-icon { width: 34px; height: 34px; display: grid; place-items: center; }.side-icon.active { background: var(--primary); color: var(--primary-foreground); }
 .product-main { padding: 25px 28px 22px; }
 .product-heading { display: flex; align-items: flex-start; justify-content: space-between; }.eyebrow { font-size: 10px; font-weight: 850; letter-spacing: .08em; color: var(--muted-foreground); }.product-heading h3 { margin: 4px 0 20px; font-family: var(--font-display); font-size: 23px; }
