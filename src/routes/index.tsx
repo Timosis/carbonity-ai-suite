@@ -198,7 +198,7 @@ function Index() {
 
   return (
     <main id="top" className="min-h-screen overflow-hidden bg-background">
-      <header className="absolute left-0 right-0 top-0 z-30 mx-auto w-full max-w-[1380px] px-6">
+      <header className="absolute left-0 right-0 top-0 z-30 w-full px-6">
         <div className="flex h-20 items-center justify-between border-b border-border">
           <Logo />
           <nav className={`absolute left-0 right-0 top-20 flex-col gap-6 border-b border-border bg-background px-6 py-6 text-sm font-semibold lg:static lg:flex lg:flex-row lg:items-center lg:gap-8 lg:border-0 lg:bg-transparent lg:px-0 lg:py-0 ${menuOpen ? "flex" : "hidden lg:flex"}`} aria-label="Ana navigasyon">
@@ -219,7 +219,7 @@ function Index() {
       </header>
 
       <section className="relative px-6 pt-36 pb-16 lg:pt-44 lg:pb-24">
-        <div className="mx-auto grid max-w-[1380px] grid-cols-1 items-center gap-12 lg:grid-cols-12">
+        <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-12">
           <div className="animate-rise lg:col-span-5">
             <SectionBadge>CBAM 2.0 uyumlu çözüm</SectionBadge>
             <h1 className="mt-6 font-display text-4xl font-bold leading-tightish tracking-tight text-foreground md:text-5xl lg:text-6xl">
