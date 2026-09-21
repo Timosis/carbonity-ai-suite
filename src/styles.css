@@ -45,6 +45,7 @@
   --border: oklch(0.90 0.01 285);
   --ring: var(--primary);
   --radius: 0.75rem;
+  --inverse: #ffffff;
 }
 
 * { box-sizing: border-box; border-color: var(--border); }
