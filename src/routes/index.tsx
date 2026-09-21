@@ -246,7 +246,7 @@ function Index() {
       </section>
 
       <section className="border-y border-border px-6 py-8" aria-label="Ürün avantajları">
-        <div className="mx-auto flex max-w-[1380px] flex-col items-start justify-between gap-6 lg:flex-row lg:items-center">
+        <div className="flex w-full flex-col items-start justify-between gap-6 lg:flex-row lg:items-center">
           <p className="max-w-sm text-sm font-semibold text-muted-foreground">Karbon verisini finansal karara dönüştüren tek çalışma alanı.</p>
           <div className="flex flex-wrap items-center gap-6 text-xs font-bold uppercase tracking-widest text-muted-foreground lg:gap-10">
             <span>CBAM</span>
@@ -258,7 +258,7 @@ function Index() {
       </section>
 
       <section className="px-6 py-20 lg:py-28" id="platform">
-        <div className="mx-auto max-w-[1380px]">
+        <div className="w-full">
           <div className="mb-12 grid grid-cols-1 gap-6 lg:mb-16 lg:grid-cols-2 lg:items-end">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Tek platform. Uçtan uca kontrol.</span>
@@ -287,7 +287,7 @@ function Index() {
       </section>
 
       <section className="bg-muted px-6 py-20 lg:py-28" id="cozumler">
-        <div className="mx-auto grid max-w-[1380px] grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
+        <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-primary">Senaryo motoru</span>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tightish tracking-tight text-foreground md:text-4xl lg:text-5xl">
@@ -341,7 +341,7 @@ function Index() {
       </section>
 
       <section className="px-6 py-20 lg:py-28" id="neden">
-        <div className="mx-auto max-w-[1380px]">
+        <div className="w-full">
           <div className="mb-10 flex flex-col items-start justify-between gap-6 lg:mb-14 lg:flex-row lg:items-end">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Ortak veri. Ortak hedef.</span>
@@ -369,7 +369,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="mx-6 mb-20 border border-border lg:mx-auto lg:max-w-[1380px]">
+      <section className="mb-20 w-full border-y border-border">
         <div className="grid grid-cols-1 divide-y divide-border lg:grid-cols-3 lg:divide-x lg:divide-y-0">
           <div className="flex items-center gap-6 p-6 lg:p-8">
             <strong className="font-display text-4xl font-semibold text-foreground lg:text-5xl">%82</strong>
@@ -387,7 +387,7 @@ function Index() {
       </section>
 
       <section className="bg-primary px-6 py-20 text-inverse lg:py-28">
-        <div className="mx-auto grid max-w-[1380px] grid-cols-1 items-end gap-10 lg:grid-cols-2 lg:gap-20">
+        <div className="grid w-full grid-cols-1 items-end gap-10 lg:grid-cols-2 lg:gap-20">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-inverse/70">Carbonity.ai ile tanışın</span>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tightish tracking-tight md:text-4xl lg:text-5xl">
@@ -408,7 +408,7 @@ function Index() {
       </section>
 
       <footer className="bg-muted px-6 py-14">
-        <div className="mx-auto max-w-[1380px]">
+        <div className="w-full">
           <div className="flex flex-col items-start justify-between gap-8 lg:flex-row">
             <Logo />
             <p className="max-w-xs text-right font-display text-2xl font-medium leading-snug text-muted-foreground lg:text-3xl lg:text-right">
