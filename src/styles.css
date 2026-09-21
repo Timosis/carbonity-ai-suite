@@ -13,15 +13,12 @@
   --color-card: #ffffff;
   --color-card-foreground: oklch(0.24 0.01 285);
   --color-primary: oklch(0.70 0.20 158);
-  --color-onprimary: #ffffff;
   --color-secondary: oklch(0.97 0.001 285);
   --color-secondary-foreground: oklch(0.24 0.01 285);
   --color-muted: oklch(0.97 0.001 285);
   --color-muted-foreground: oklch(0.55 0.015 285);
   --color-accent: oklch(0.68 0.16 30);
-  --color-onaccent: #ffffff;
   --color-border: oklch(0.90 0.01 285);
-  --color-inverse: #ffffff;
   --color-ring: var(--color-primary);
 
   --radius-sm: 0.5rem;
