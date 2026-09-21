@@ -21,6 +21,7 @@
   --color-accent: oklch(0.68 0.16 30);
   --color-onaccent: #ffffff;
   --color-border: oklch(0.90 0.01 285);
+  --color-inverse: #ffffff;
   --color-ring: var(--color-primary);
 
   --radius-sm: 0.5rem;
