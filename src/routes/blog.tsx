@@ -26,7 +26,8 @@ export const Route = createFileRoute("/blog")({
 const demoHref = "mailto:hello@carbonity.ai?subject=Carbonity.ai Demo Talebi";
 
 function BlogPage() {
-  const [featured, ...rest] = blogPosts;
+  const featured = blogPosts[0]!;
+  const rest = blogPosts.slice(1);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
