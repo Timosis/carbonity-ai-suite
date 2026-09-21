@@ -386,17 +386,17 @@ function Index() {
         </div>
       </section>
 
-      <section className="bg-primary px-6 py-20 text-primary-foreground lg:py-28">
+      <section className="bg-primary px-6 py-20 text-primary-inverse lg:py-28">
         <div className="mx-auto grid max-w-[1380px] grid-cols-1 items-end gap-10 lg:grid-cols-2 lg:gap-20">
           <div>
-            <span className="text-xs font-bold uppercase tracking-widest text-primary-foreground/70">Carbonity.ai ile tanışın</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-primary-inverse/70">Carbonity.ai ile tanışın</span>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tightish tracking-tight md:text-4xl lg:text-5xl">
               CBAM'ı yalnızca raporlamayın.<br />
-              <span className="text-primary-foreground/40">Yönetin.</span>
+              <span className="text-primary-inverse/40">Yönetin.</span>
             </h2>
           </div>
           <div>
-            <p className="max-w-md text-base leading-relaxed text-primary-foreground/80">
+            <p className="max-w-md text-base leading-relaxed text-primary-inverse/80">
               Verinizi, riskinizi ve fırsatlarınızı 30 dakikalık kişiselleştirilmiş demoda birlikte görelim.
             </p>
             <a href={demoHref} className="mt-6 inline-flex items-center gap-3 rounded-lg bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-all hover:bg-background/90">
