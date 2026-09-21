@@ -67,7 +67,7 @@ function PrimaryCta({ children }: { children: React.ReactNode }) {
   return (
     <a
       href={demoHref}
-      className="inline-flex items-center justify-center gap-3 rounded-lg bg-foreground px-6 py-3.5 text-sm font-semibold text-primary-inverse transition-all hover:bg-foreground/90"
+      className="inline-flex items-center justify-center gap-3 rounded-lg bg-foreground px-6 py-3.5 text-sm font-semibold text-onprimary transition-all hover:bg-foreground/90"
     >
       <span>{children}</span>
       <ArrowRight aria-hidden="true" size={16} strokeWidth={2.2} />
@@ -168,7 +168,7 @@ function DashboardPreview() {
       </div>
 
       <div className="absolute -bottom-5 -right-5 flex max-w-[220px] items-center gap-3 rounded-xl border border-border bg-card p-3 shadow-lg">
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-inverse">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-onprimary">
           <Check size={20} strokeWidth={2.5} />
         </div>
         <div>
@@ -328,7 +328,7 @@ function Index() {
                 </div>
               ))}
             </div>
-            <div className="mt-5 flex items-center gap-4 rounded-lg bg-primary p-5 text-primary-inverse">
+            <div className="mt-5 flex items-center gap-4 rounded-lg bg-primary p-5 text-onprimary">
               <TrendingDown size={24} />
               <div className="flex-1">
                 <div className="text-[10px] font-bold uppercase tracking-wider">Tahmini yıllık tasarruf</div>
@@ -386,17 +386,17 @@ function Index() {
         </div>
       </section>
 
-      <section className="bg-primary px-6 py-20 text-primary-inverse lg:py-28">
+      <section className="bg-primary px-6 py-20 text-onprimary lg:py-28">
         <div className="mx-auto grid max-w-[1380px] grid-cols-1 items-end gap-10 lg:grid-cols-2 lg:gap-20">
           <div>
-            <span className="text-xs font-bold uppercase tracking-widest text-primary-inverse/70">Carbonity.ai ile tanışın</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-onprimary/70">Carbonity.ai ile tanışın</span>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tightish tracking-tight md:text-4xl lg:text-5xl">
               CBAM'ı yalnızca raporlamayın.<br />
-              <span className="text-primary-inverse/40">Yönetin.</span>
+              <span className="text-onprimary/40">Yönetin.</span>
             </h2>
           </div>
           <div>
-            <p className="max-w-md text-base leading-relaxed text-primary-inverse/80">
+            <p className="max-w-md text-base leading-relaxed text-onprimary/80">
               Verinizi, riskinizi ve fırsatlarınızı 30 dakikalık kişiselleştirilmiş demoda birlikte görelim.
             </p>
             <a href={demoHref} className="mt-6 inline-flex items-center gap-3 rounded-lg bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-all hover:bg-background/90">
