@@ -67,7 +67,7 @@ function PrimaryCta({ children }: { children: React.ReactNode }) {
   return (
     <a
       href={demoHref}
-      className="inline-flex items-center justify-center gap-3 rounded-lg bg-foreground px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-foreground/90"
+      className="inline-flex items-center justify-center gap-3 rounded-lg bg-foreground px-6 py-3.5 text-sm font-semibold text-inverse transition-all hover:bg-foreground/90"
     >
       <span>{children}</span>
       <ArrowRight aria-hidden="true" size={16} strokeWidth={2.2} />
