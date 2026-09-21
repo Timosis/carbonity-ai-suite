@@ -205,6 +205,8 @@ function Index() {
             <a href="#platform" onClick={() => setMenuOpen(false)} className="text-muted-foreground transition-colors hover:text-foreground">Platform</a>
             <a href="#cozumler" onClick={() => setMenuOpen(false)} className="text-muted-foreground transition-colors hover:text-foreground">Çözümler</a>
             <a href="#neden" onClick={() => setMenuOpen(false)} className="text-muted-foreground transition-colors hover:text-foreground">Neden Carbonity?</a>
+            <Link to="/blog" onClick={() => setMenuOpen(false)} className="text-muted-foreground transition-colors hover:text-foreground">Blog</Link>
+
             <a href="mailto:hello@carbonity.ai" onClick={() => setMenuOpen(false)} className="text-muted-foreground transition-colors hover:text-foreground">İletişim</a>
           </nav>
           <div className="flex items-center gap-4">
